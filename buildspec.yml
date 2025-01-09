@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+    commands:
+      - echo "install ok"
+  pre_build:
+    commands:
+      - echo "in pre build"
+  build:
+    commands:
+      - echo "In Build"
+  post_build:
+    commands:
+      - echo "Finish"
